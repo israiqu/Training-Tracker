@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+/* Reset styles*/
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #1E1F21;
+  width: 100%;
+  margin: 0%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+.home, .reports, .profile {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(230, 230, 230);
+}
